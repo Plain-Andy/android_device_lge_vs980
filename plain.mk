@@ -16,3 +16,7 @@ PRODUCT_MANUFACTURER := lge
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
+
+# Boot animation
+PRODUCT_COPY_FILES += \
+    vendor/plain/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
